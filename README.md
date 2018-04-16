@@ -12,13 +12,17 @@ Order of the codes used:
 
 4. Picking OTUs
 
-	4.a Picking OTUs Open Reference	
-	4.b Picking OTUs Closed Reference
+ 4.a Picking OTUs
+ 
+	4.a1 Picking OTUs Open Reference	
+	4.a2 Picking OTUs Closed Reference
   
 5. Core Diversity 
 
-	5.a Core Diversity Open Reference	
-	5.b Core Diversity Closed Reference
+ 5.a Core Diversity
+
+	5.a1 Core Diversity Open Reference	
+	5.a2 Core Diversity Closed Reference
   
 6. adonis Analysis
 
