@@ -18,7 +18,7 @@ Order of the codes used:
 	4.a1 Picking OTUs Open Reference	
 	4.a2 Picking OTUs Closed Reference
   
-5. Core Diversity
+5. <b>Core Diversity</b>
 
  5.a <i>Core Diversity</i>
 
