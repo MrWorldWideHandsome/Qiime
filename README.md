@@ -4,13 +4,13 @@ BIOC3301 ReadMe report codes
 The Qiime folder contains the codes that were used for Metagenomic analysis of soil micrbiome
 
 Order of the codes used:
-<b>1. Join Pair Ends
+1. Join Pair Ends
 
 2. Split Libraries
 
 3. Counting Sequences
 
-4. Picking OTUs<b>
+4. Picking OTUs
 
  4.a _Picking OTUs 
  
