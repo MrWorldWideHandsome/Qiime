@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red60\green95\blue255;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c29814\c47883\c100000;\csgray\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #!/bin/bash --login\
+#PBS -l walltime=01:00:00\
+#PBS -l select=1:ncpus=2\
+#PBS -N 2017_cr_nojoin_no_golay_parallel\
+#PBS -A d411-training\
+\
+cd $PBS_O_WORKDIR\
+\
+module load miniconda/python2\
+\
+# loading virtualenv\
+echo \'93loading virtualenv\'94\
+\
+source activate qiime1\
+\
+# setting temporary directory\
+export TMPDIR=~/qiime_tmp\
+\
+# comparing categories in open reference beta analysis unweighted Sample
+\fs16 Potassium
+\fs24 \
+echo \'93comparing categories in open reference beta analysis unweighted Sample
+\fs16 Potassium
+\fs24 \'94\
+time compare_categories.py \\\
+-i ~/2018_02_smb/COREDIVOPEN/bdiv_even662/unweighted_unifrac_dm.txt \\\
+--method anosim \\\
+-m ~/2018_02_smb/JPR/map.tsv \\\
+-o 
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 ANOSIMOPot 
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \\\
+-c Sample
+\fs16 Potassium
+\fs24 \
+\
+source deactivate}
