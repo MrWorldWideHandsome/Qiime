@@ -5,19 +5,19 @@ The Qiime folder contains the codes that were used for Metagenomic analysis of s
 
 Order of the codes used:
 <b>
-1. Join Pair Ends
+1. Join Pair Ends </b>
 	
 	This script takes the forward and reverse Illumina reads and joins them using SeqPrep (method chosen). Index file containing barcodes were included to match the surviving joined pairs to the barcodes. 
 
-2. Split Libraries
+2. <b>Split Libraries </b>
 
 	This script performs demultiplexing of Fastq sequence data where barcodes and sequences are contained in two separate fastq which are present on Illumina runs. 
 
-3. Counting Sequences
+3. <b>Counting Sequences </b>
 	
 	This script counts the sequences in the seqs.fna file and write the results to the desired output file.
 
-4. Picking OTUs </b>
+4. <b>Picking OTUs </b>
 
 	Scripts picks OTUs in either closed reference, open reference or de novo reference method; and constructs an OTU table. The table is in a biom format that can be made human readable with the command: biom summarize -i /path/to/table. Default clustering tool was used, uclust. 
 	
