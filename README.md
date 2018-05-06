@@ -39,7 +39,7 @@ Order of the codes used:
   
 5. <b>Core Diversity</b>
 
-	Scripts generates analysis of alpha diversity, beta diversity and taxanomy data. Taxonomy data was the most used for analysis
+	Scripts generates analysis of alpha diversity, beta diversity and taxanomy data. Taxonomy data (bar graphs) was the most used for analysis.
 
  5.a <i>Core Diversity</i>
 
