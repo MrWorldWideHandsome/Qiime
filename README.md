@@ -2,8 +2,6 @@
 BIOC3301 ReadMe report codes
 
 The Qiime folder contains the codes that were used for Metagenomic analysis of soil micrbiome
-Codes need to be downloaded to be read as it is in TextEditor format (mac). 
-There were some errors pushing vim files to GitHub, so we had to resort to uploading files to GitHub.
 
 Order of the codes used:
 <b>
@@ -41,7 +39,7 @@ Order of the codes used:
   
 5. <b>Core Diversity</b>
 
-	Scripts generates analysis of alpha diversity, beta diversity and taxanomy data. 
+	Scripts generates analysis of alpha diversity, beta diversity and taxanomy data. Taxonomy data was the most used for analysis
 
  5.a <i>Core Diversity</i>
 
